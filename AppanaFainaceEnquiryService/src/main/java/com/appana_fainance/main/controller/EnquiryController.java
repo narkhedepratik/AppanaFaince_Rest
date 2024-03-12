@@ -16,6 +16,12 @@ public class EnquiryController {
    {
 		return enquiry;
    }
+	@GetMappling("/enquiry")
+	public List<Enquiry> allEnquiry()
+	{
+		return null;
+
+	}
 	
 
 }
